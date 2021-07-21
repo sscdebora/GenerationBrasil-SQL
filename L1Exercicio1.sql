@@ -17,6 +17,6 @@ insert into tb_funcionaries (nome, idade, cpf, salario, atividade) values("José
 select * FROM db_rh.tb_funcionaries;
 select * FROM db_rh.tb_funcionaries where salario >2000;
 select * FROM db_rh.tb_funcionaries where salario <2000;
-update tb_funcionaries set nome="José" where salario=2500;
+update tb_funcionaries set salario=2500 where id=5;
 delete from tb_funcionaries where id between 19 and 60;
 
